@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>Conversione</title>
+</head>
+<body>
+    <h1>
+    Fahreneit
+    </h1>
+    <p th:text="${gradiFahreneit}"></p>
+    <img th:src="@{/immagini/20825.jpg}" width=" 20px" height="60px">
+<h1>
+    Kelvin
+</h1>
+    <p th:text="${gradiKelvin}"></p>
+
+    <p th:text="${error}" style="color:red"></p>
+
+
+</body>
+</html>
